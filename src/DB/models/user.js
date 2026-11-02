@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcrypt from 'bcrypt'
-const slotNumber = Number(process.env.SALT_ROUNDS??7)
+const slotNumber = Number(process.env.SALT_ROUNDS ?? 7)
 export const userRole = {
     admin: "admin",
     manager: "manager",
